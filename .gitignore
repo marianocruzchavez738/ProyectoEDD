@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+peru-latest.osm.pbf
+
+# Virtual environments
+.venv
+peru-latest.osm.pbf
+*.osm.pbf
+.venv/
+*.osm.pbf

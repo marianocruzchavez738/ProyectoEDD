@@ -1,0 +1,27 @@
+[project]
+name = "edd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "marianocruzchavez738@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.20.0",
+    "matplotlib>=3.11.2",
+    "networkx>=3.7",
+    "osmium>=4.3.2",
+    "osmnx>=2.1.1",
+    "pyrosm>=0.25.0",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.66.1",
+    "streamlit-folium>=0.27.4",
+]
+
+[project.scripts]
+edd = "edd:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
